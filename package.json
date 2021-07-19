@@ -4,12 +4,14 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "export NODE_PORT=8080; node_modules/nodemon/bin/nodemon.js app.js",
     "test": "jasmine-node spec"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
+    "nodemon": "^2.0.12",
     "request": "^2.85.0"
   },
   "devDependencies": {
